@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">En Fin, el Mar</string>
+    <string name="app_menu_title">En Fin, el Mar</string>
+    <string name="app_menu_subtitle">Aplicación sobre los fondos marinos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Acerca de</string>
+</resources>

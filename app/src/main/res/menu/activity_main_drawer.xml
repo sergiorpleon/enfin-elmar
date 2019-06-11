@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+    <menu>
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_arrow_forward_black_24dp"
+            android:title="INICIO" />
+    </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manglar"
+            android:icon="@drawable/ic_arrow_forward_black_24dp"
+            android:title="MANGLAR" />
+        <item
+            android:id="@+id/nav_pasto"
+            android:icon="@drawable/ic_arrow_forward_black_24dp"
+            android:title="PASTOS MARINOS" />
+        <item
+            android:id="@+id/nav_arrecife"
+            android:icon="@drawable/ic_arrow_forward_black_24dp"
+            android:title="ARRECIFES CORALINOS" />
+
+    </group>
+
+    <item android:title="Relacionado">
+        <menu>
+            <item
+                android:id="@+id/nav_relaciones"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Ecosistemas" />
+            <item
+                android:id="@+id/nav_enfrentamiento"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Cambio climático" />
+            <item
+                android:id="@+id/nav_corredores"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Corredores biológicos" />
+        </menu>
+    </item>
+
+</menu>
